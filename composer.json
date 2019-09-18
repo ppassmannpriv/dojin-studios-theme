@@ -1,0 +1,23 @@
+{
+    "name": "papa/dojinstudios",
+    "type": "october-theme",
+    "description": "Dojin Studios OctoberCMS theme",
+    "keywords": ["october", "cms", "dojin-studios", "theme"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Pieter Passmann",
+            "email": "hello@pieterpassmann.dev",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": ">=5.4",
+        "composer/installers": "~1.0"
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.0-dev"
+        }
+    }
+}

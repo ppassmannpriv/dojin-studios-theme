@@ -1,0 +1,25 @@
+title = "Home"
+url = "/"
+layout = "Default"
+is_hidden = 0
+
+[releasesList]
+noRecordsMessage = "papa.musicreleases::lang.components.list_no_records_default"
+recordClassName = "column is-one-third"
+detailsPage = "-"
+detailsUrlParameter = "id"
+==
+<div class="column">
+    <div class="container">
+        <div class="columns">
+            <div class="column">
+                {% content 'static/about-us' %}
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="columns">
+            {% component 'releasesList' %}
+        </div>
+    </div>
+</div>
