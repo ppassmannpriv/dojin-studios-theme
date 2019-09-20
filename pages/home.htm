@@ -5,11 +5,11 @@ is_hidden = 0
 
 [releasesList]
 noRecordsMessage = "papa.musicreleases::lang.components.list_no_records_default"
-recordClassName = "column is-one-third"
+recordClassName = "item"
 detailsPage = "-"
 detailsUrlParameter = "id"
 ==
-<div class="column">
+<section class="section" id="about-us">
     <div class="container">
         <div class="columns">
             <div class="column">
@@ -17,9 +17,10 @@ detailsUrlParameter = "id"
             </div>
         </div>
     </div>
+    {% partial 'site/videobackground' %}
+</section>
+<section class="section" id="releases">
     <div class="container">
-        <div class="columns">
-            {% component 'releasesList' %}
-        </div>
+        {% component 'releasesList' %}
     </div>
-</div>
+</section>
